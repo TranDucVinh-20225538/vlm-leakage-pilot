@@ -1,0 +1,461 @@
+{
+ "note": "sets 0-4=K5, 0-19=K20, 0-49=K50 (nested by prefix)",
+ "classes": [
+  "No Finding",
+  "Infiltration",
+  "Effusion",
+  "Atelectasis"
+ ],
+ "sets": [
+  {
+   "set_id": 0,
+   "prompts": {
+    "No Finding": "a chest X-ray showing no acute cardiopulmonary abnormality.",
+    "Infiltration": "a chest X-ray showing pulmonary infiltrates.",
+    "Effusion": "a chest X-ray showing a pleural effusion.",
+    "Atelectasis": "a chest X-ray showing atelectasis."
+   }
+  },
+  {
+   "set_id": 1,
+   "prompts": {
+    "No Finding": "a frontal chest radiograph with no acute cardiopulmonary abnormality.",
+    "Infiltration": "a frontal chest radiograph with pulmonary infiltrates.",
+    "Effusion": "a frontal chest radiograph with a pleural effusion.",
+    "Atelectasis": "a frontal chest radiograph with atelectasis."
+   }
+  },
+  {
+   "set_id": 2,
+   "prompts": {
+    "No Finding": "Findings: no acute cardiopulmonary abnormality.",
+    "Infiltration": "Findings: pulmonary infiltrates.",
+    "Effusion": "Findings: a pleural effusion.",
+    "Atelectasis": "Findings: atelectasis."
+   }
+  },
+  {
+   "set_id": 3,
+   "prompts": {
+    "No Finding": "Impression: no acute cardiopulmonary abnormality.",
+    "Infiltration": "Impression: pulmonary infiltrates.",
+    "Effusion": "Impression: a pleural effusion.",
+    "Atelectasis": "Impression: atelectasis."
+   }
+  },
+  {
+   "set_id": 4,
+   "prompts": {
+    "No Finding": "a photo of a chest x-ray with no acute cardiopulmonary abnormality.",
+    "Infiltration": "a photo of a chest x-ray with pulmonary infiltrates.",
+    "Effusion": "a photo of a chest x-ray with a pleural effusion.",
+    "Atelectasis": "a photo of a chest x-ray with atelectasis."
+   }
+  },
+  {
+   "set_id": 5,
+   "prompts": {
+    "No Finding": "chest radiograph demonstrating no acute cardiopulmonary abnormality.",
+    "Infiltration": "chest radiograph demonstrating pulmonary infiltrates.",
+    "Effusion": "chest radiograph demonstrating a pleural effusion.",
+    "Atelectasis": "chest radiograph demonstrating atelectasis."
+   }
+  },
+  {
+   "set_id": 6,
+   "prompts": {
+    "No Finding": "PA chest film: no acute cardiopulmonary abnormality.",
+    "Infiltration": "PA chest film: pulmonary infiltrates.",
+    "Effusion": "PA chest film: a pleural effusion.",
+    "Atelectasis": "PA chest film: atelectasis."
+   }
+  },
+  {
+   "set_id": 7,
+   "prompts": {
+    "No Finding": "an AP chest x-ray showing no acute cardiopulmonary abnormality.",
+    "Infiltration": "an AP chest x-ray showing pulmonary infiltrates.",
+    "Effusion": "an AP chest x-ray showing a pleural effusion.",
+    "Atelectasis": "an AP chest x-ray showing atelectasis."
+   }
+  },
+  {
+   "set_id": 8,
+   "prompts": {
+    "No Finding": "radiology report: no acute cardiopulmonary abnormality.",
+    "Infiltration": "radiology report: pulmonary infiltrates.",
+    "Effusion": "radiology report: a pleural effusion.",
+    "Atelectasis": "radiology report: atelectasis."
+   }
+  },
+  {
+   "set_id": 9,
+   "prompts": {
+    "No Finding": "a medical image of the chest showing no acute cardiopulmonary abnormality.",
+    "Infiltration": "a medical image of the chest showing pulmonary infiltrates.",
+    "Effusion": "a medical image of the chest showing a pleural effusion.",
+    "Atelectasis": "a medical image of the chest showing atelectasis."
+   }
+  },
+  {
+   "set_id": 10,
+   "prompts": {
+    "No Finding": "a chest X-ray showing normal lungs and heart.",
+    "Infiltration": "a chest X-ray showing an infiltrate in the lung.",
+    "Effusion": "a chest X-ray showing fluid in the pleural space.",
+    "Atelectasis": "a chest X-ray showing partial lung collapse."
+   }
+  },
+  {
+   "set_id": 11,
+   "prompts": {
+    "No Finding": "a frontal chest radiograph with normal lungs and heart.",
+    "Infiltration": "a frontal chest radiograph with an infiltrate in the lung.",
+    "Effusion": "a frontal chest radiograph with fluid in the pleural space.",
+    "Atelectasis": "a frontal chest radiograph with partial lung collapse."
+   }
+  },
+  {
+   "set_id": 12,
+   "prompts": {
+    "No Finding": "Findings: normal lungs and heart.",
+    "Infiltration": "Findings: an infiltrate in the lung.",
+    "Effusion": "Findings: fluid in the pleural space.",
+    "Atelectasis": "Findings: partial lung collapse."
+   }
+  },
+  {
+   "set_id": 13,
+   "prompts": {
+    "No Finding": "Impression: normal lungs and heart.",
+    "Infiltration": "Impression: an infiltrate in the lung.",
+    "Effusion": "Impression: fluid in the pleural space.",
+    "Atelectasis": "Impression: partial lung collapse."
+   }
+  },
+  {
+   "set_id": 14,
+   "prompts": {
+    "No Finding": "a photo of a chest x-ray with normal lungs and heart.",
+    "Infiltration": "a photo of a chest x-ray with an infiltrate in the lung.",
+    "Effusion": "a photo of a chest x-ray with fluid in the pleural space.",
+    "Atelectasis": "a photo of a chest x-ray with partial lung collapse."
+   }
+  },
+  {
+   "set_id": 15,
+   "prompts": {
+    "No Finding": "chest radiograph demonstrating normal lungs and heart.",
+    "Infiltration": "chest radiograph demonstrating an infiltrate in the lung.",
+    "Effusion": "chest radiograph demonstrating fluid in the pleural space.",
+    "Atelectasis": "chest radiograph demonstrating partial lung collapse."
+   }
+  },
+  {
+   "set_id": 16,
+   "prompts": {
+    "No Finding": "PA chest film: normal lungs and heart.",
+    "Infiltration": "PA chest film: an infiltrate in the lung.",
+    "Effusion": "PA chest film: fluid in the pleural space.",
+    "Atelectasis": "PA chest film: partial lung collapse."
+   }
+  },
+  {
+   "set_id": 17,
+   "prompts": {
+    "No Finding": "an AP chest x-ray showing normal lungs and heart.",
+    "Infiltration": "an AP chest x-ray showing an infiltrate in the lung.",
+    "Effusion": "an AP chest x-ray showing fluid in the pleural space.",
+    "Atelectasis": "an AP chest x-ray showing partial lung collapse."
+   }
+  },
+  {
+   "set_id": 18,
+   "prompts": {
+    "No Finding": "radiology report: normal lungs and heart.",
+    "Infiltration": "radiology report: an infiltrate in the lung.",
+    "Effusion": "radiology report: fluid in the pleural space.",
+    "Atelectasis": "radiology report: partial lung collapse."
+   }
+  },
+  {
+   "set_id": 19,
+   "prompts": {
+    "No Finding": "a medical image of the chest showing normal lungs and heart.",
+    "Infiltration": "a medical image of the chest showing an infiltrate in the lung.",
+    "Effusion": "a medical image of the chest showing fluid in the pleural space.",
+    "Atelectasis": "a medical image of the chest showing partial lung collapse."
+   }
+  },
+  {
+   "set_id": 20,
+   "prompts": {
+    "No Finding": "a chest X-ray showing clear lungs without focal abnormality.",
+    "Infiltration": "a chest X-ray showing patchy airspace opacity.",
+    "Effusion": "a chest X-ray showing blunting of the costophrenic angle from effusion.",
+    "Atelectasis": "a chest X-ray showing volume loss consistent with atelectasis."
+   }
+  },
+  {
+   "set_id": 21,
+   "prompts": {
+    "No Finding": "a frontal chest radiograph with clear lungs without focal abnormality.",
+    "Infiltration": "a frontal chest radiograph with patchy airspace opacity.",
+    "Effusion": "a frontal chest radiograph with blunting of the costophrenic angle from effusion.",
+    "Atelectasis": "a frontal chest radiograph with volume loss consistent with atelectasis."
+   }
+  },
+  {
+   "set_id": 22,
+   "prompts": {
+    "No Finding": "Findings: clear lungs without focal abnormality.",
+    "Infiltration": "Findings: patchy airspace opacity.",
+    "Effusion": "Findings: blunting of the costophrenic angle from effusion.",
+    "Atelectasis": "Findings: volume loss consistent with atelectasis."
+   }
+  },
+  {
+   "set_id": 23,
+   "prompts": {
+    "No Finding": "Impression: clear lungs without focal abnormality.",
+    "Infiltration": "Impression: patchy airspace opacity.",
+    "Effusion": "Impression: blunting of the costophrenic angle from effusion.",
+    "Atelectasis": "Impression: volume loss consistent with atelectasis."
+   }
+  },
+  {
+   "set_id": 24,
+   "prompts": {
+    "No Finding": "a photo of a chest x-ray with clear lungs without focal abnormality.",
+    "Infiltration": "a photo of a chest x-ray with patchy airspace opacity.",
+    "Effusion": "a photo of a chest x-ray with blunting of the costophrenic angle from effusion.",
+    "Atelectasis": "a photo of a chest x-ray with volume loss consistent with atelectasis."
+   }
+  },
+  {
+   "set_id": 25,
+   "prompts": {
+    "No Finding": "chest radiograph demonstrating clear lungs without focal abnormality.",
+    "Infiltration": "chest radiograph demonstrating patchy airspace opacity.",
+    "Effusion": "chest radiograph demonstrating blunting of the costophrenic angle from effusion.",
+    "Atelectasis": "chest radiograph demonstrating volume loss consistent with atelectasis."
+   }
+  },
+  {
+   "set_id": 26,
+   "prompts": {
+    "No Finding": "PA chest film: clear lungs without focal abnormality.",
+    "Infiltration": "PA chest film: patchy airspace opacity.",
+    "Effusion": "PA chest film: blunting of the costophrenic angle from effusion.",
+    "Atelectasis": "PA chest film: volume loss consistent with atelectasis."
+   }
+  },
+  {
+   "set_id": 27,
+   "prompts": {
+    "No Finding": "an AP chest x-ray showing clear lungs without focal abnormality.",
+    "Infiltration": "an AP chest x-ray showing patchy airspace opacity.",
+    "Effusion": "an AP chest x-ray showing blunting of the costophrenic angle from effusion.",
+    "Atelectasis": "an AP chest x-ray showing volume loss consistent with atelectasis."
+   }
+  },
+  {
+   "set_id": 28,
+   "prompts": {
+    "No Finding": "radiology report: clear lungs without focal abnormality.",
+    "Infiltration": "radiology report: patchy airspace opacity.",
+    "Effusion": "radiology report: blunting of the costophrenic angle from effusion.",
+    "Atelectasis": "radiology report: volume loss consistent with atelectasis."
+   }
+  },
+  {
+   "set_id": 29,
+   "prompts": {
+    "No Finding": "a medical image of the chest showing clear lungs without focal abnormality.",
+    "Infiltration": "a medical image of the chest showing patchy airspace opacity.",
+    "Effusion": "a medical image of the chest showing blunting of the costophrenic angle from effusion.",
+    "Atelectasis": "a medical image of the chest showing volume loss consistent with atelectasis."
+   }
+  },
+  {
+   "set_id": 30,
+   "prompts": {
+    "No Finding": "a chest X-ray showing a normal study.",
+    "Infiltration": "a chest X-ray showing interstitial infiltration.",
+    "Effusion": "a chest X-ray showing a layering pleural effusion.",
+    "Atelectasis": "a chest X-ray showing subsegmental atelectasis."
+   }
+  },
+  {
+   "set_id": 31,
+   "prompts": {
+    "No Finding": "a frontal chest radiograph with a normal study.",
+    "Infiltration": "a frontal chest radiograph with interstitial infiltration.",
+    "Effusion": "a frontal chest radiograph with a layering pleural effusion.",
+    "Atelectasis": "a frontal chest radiograph with subsegmental atelectasis."
+   }
+  },
+  {
+   "set_id": 32,
+   "prompts": {
+    "No Finding": "Findings: a normal study.",
+    "Infiltration": "Findings: interstitial infiltration.",
+    "Effusion": "Findings: a layering pleural effusion.",
+    "Atelectasis": "Findings: subsegmental atelectasis."
+   }
+  },
+  {
+   "set_id": 33,
+   "prompts": {
+    "No Finding": "Impression: a normal study.",
+    "Infiltration": "Impression: interstitial infiltration.",
+    "Effusion": "Impression: a layering pleural effusion.",
+    "Atelectasis": "Impression: subsegmental atelectasis."
+   }
+  },
+  {
+   "set_id": 34,
+   "prompts": {
+    "No Finding": "a photo of a chest x-ray with a normal study.",
+    "Infiltration": "a photo of a chest x-ray with interstitial infiltration.",
+    "Effusion": "a photo of a chest x-ray with a layering pleural effusion.",
+    "Atelectasis": "a photo of a chest x-ray with subsegmental atelectasis."
+   }
+  },
+  {
+   "set_id": 35,
+   "prompts": {
+    "No Finding": "chest radiograph demonstrating a normal study.",
+    "Infiltration": "chest radiograph demonstrating interstitial infiltration.",
+    "Effusion": "chest radiograph demonstrating a layering pleural effusion.",
+    "Atelectasis": "chest radiograph demonstrating subsegmental atelectasis."
+   }
+  },
+  {
+   "set_id": 36,
+   "prompts": {
+    "No Finding": "PA chest film: a normal study.",
+    "Infiltration": "PA chest film: interstitial infiltration.",
+    "Effusion": "PA chest film: a layering pleural effusion.",
+    "Atelectasis": "PA chest film: subsegmental atelectasis."
+   }
+  },
+  {
+   "set_id": 37,
+   "prompts": {
+    "No Finding": "an AP chest x-ray showing a normal study.",
+    "Infiltration": "an AP chest x-ray showing interstitial infiltration.",
+    "Effusion": "an AP chest x-ray showing a layering pleural effusion.",
+    "Atelectasis": "an AP chest x-ray showing subsegmental atelectasis."
+   }
+  },
+  {
+   "set_id": 38,
+   "prompts": {
+    "No Finding": "radiology report: a normal study.",
+    "Infiltration": "radiology report: interstitial infiltration.",
+    "Effusion": "radiology report: a layering pleural effusion.",
+    "Atelectasis": "radiology report: subsegmental atelectasis."
+   }
+  },
+  {
+   "set_id": 39,
+   "prompts": {
+    "No Finding": "a medical image of the chest showing a normal study.",
+    "Infiltration": "a medical image of the chest showing interstitial infiltration.",
+    "Effusion": "a medical image of the chest showing a layering pleural effusion.",
+    "Atelectasis": "a medical image of the chest showing subsegmental atelectasis."
+   }
+  },
+  {
+   "set_id": 40,
+   "prompts": {
+    "No Finding": "a chest X-ray showing no radiographic abnormality.",
+    "Infiltration": "a chest X-ray showing hazy lung infiltrates.",
+    "Effusion": "a chest X-ray showing pleural fluid.",
+    "Atelectasis": "a chest X-ray showing linear atelectasis."
+   }
+  },
+  {
+   "set_id": 41,
+   "prompts": {
+    "No Finding": "a frontal chest radiograph with no radiographic abnormality.",
+    "Infiltration": "a frontal chest radiograph with hazy lung infiltrates.",
+    "Effusion": "a frontal chest radiograph with pleural fluid.",
+    "Atelectasis": "a frontal chest radiograph with linear atelectasis."
+   }
+  },
+  {
+   "set_id": 42,
+   "prompts": {
+    "No Finding": "Findings: no radiographic abnormality.",
+    "Infiltration": "Findings: hazy lung infiltrates.",
+    "Effusion": "Findings: pleural fluid.",
+    "Atelectasis": "Findings: linear atelectasis."
+   }
+  },
+  {
+   "set_id": 43,
+   "prompts": {
+    "No Finding": "Impression: no radiographic abnormality.",
+    "Infiltration": "Impression: hazy lung infiltrates.",
+    "Effusion": "Impression: pleural fluid.",
+    "Atelectasis": "Impression: linear atelectasis."
+   }
+  },
+  {
+   "set_id": 44,
+   "prompts": {
+    "No Finding": "a photo of a chest x-ray with no radiographic abnormality.",
+    "Infiltration": "a photo of a chest x-ray with hazy lung infiltrates.",
+    "Effusion": "a photo of a chest x-ray with pleural fluid.",
+    "Atelectasis": "a photo of a chest x-ray with linear atelectasis."
+   }
+  },
+  {
+   "set_id": 45,
+   "prompts": {
+    "No Finding": "chest radiograph demonstrating no radiographic abnormality.",
+    "Infiltration": "chest radiograph demonstrating hazy lung infiltrates.",
+    "Effusion": "chest radiograph demonstrating pleural fluid.",
+    "Atelectasis": "chest radiograph demonstrating linear atelectasis."
+   }
+  },
+  {
+   "set_id": 46,
+   "prompts": {
+    "No Finding": "PA chest film: no radiographic abnormality.",
+    "Infiltration": "PA chest film: hazy lung infiltrates.",
+    "Effusion": "PA chest film: pleural fluid.",
+    "Atelectasis": "PA chest film: linear atelectasis."
+   }
+  },
+  {
+   "set_id": 47,
+   "prompts": {
+    "No Finding": "an AP chest x-ray showing no radiographic abnormality.",
+    "Infiltration": "an AP chest x-ray showing hazy lung infiltrates.",
+    "Effusion": "an AP chest x-ray showing pleural fluid.",
+    "Atelectasis": "an AP chest x-ray showing linear atelectasis."
+   }
+  },
+  {
+   "set_id": 48,
+   "prompts": {
+    "No Finding": "radiology report: no radiographic abnormality.",
+    "Infiltration": "radiology report: hazy lung infiltrates.",
+    "Effusion": "radiology report: pleural fluid.",
+    "Atelectasis": "radiology report: linear atelectasis."
+   }
+  },
+  {
+   "set_id": 49,
+   "prompts": {
+    "No Finding": "a medical image of the chest showing no radiographic abnormality.",
+    "Infiltration": "a medical image of the chest showing hazy lung infiltrates.",
+    "Effusion": "a medical image of the chest showing pleural fluid.",
+    "Atelectasis": "a medical image of the chest showing linear atelectasis."
+   }
+  }
+ ]
+}

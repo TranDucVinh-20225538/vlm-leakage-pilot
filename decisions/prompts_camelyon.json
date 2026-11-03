@@ -1,0 +1,359 @@
+{
+ "note": "sets 0-4=K5, 0-19=K20, 0-49=K50 (nested by prefix)",
+ "classes": [
+  "normal",
+  "tumor"
+ ],
+ "sets": [
+  {
+   "set_id": 0,
+   "prompts": {
+    "normal": "an H&E stained histopathology image of normal lymph node tissue.",
+    "tumor": "an H&E stained histopathology image of metastatic breast carcinoma in a lymph node."
+   }
+  },
+  {
+   "set_id": 1,
+   "prompts": {
+    "normal": "a pathology patch showing normal lymph node tissue.",
+    "tumor": "a pathology patch showing metastatic breast carcinoma in a lymph node."
+   }
+  },
+  {
+   "set_id": 2,
+   "prompts": {
+    "normal": "Diagnosis: normal lymph node tissue.",
+    "tumor": "Diagnosis: metastatic breast carcinoma in a lymph node."
+   }
+  },
+  {
+   "set_id": 3,
+   "prompts": {
+    "normal": "a histology slide of normal lymph node tissue.",
+    "tumor": "a histology slide of metastatic breast carcinoma in a lymph node."
+   }
+  },
+  {
+   "set_id": 4,
+   "prompts": {
+    "normal": "a microscopic image of normal lymph node tissue.",
+    "tumor": "a microscopic image of metastatic breast carcinoma in a lymph node."
+   }
+  },
+  {
+   "set_id": 5,
+   "prompts": {
+    "normal": "an H&E image showing normal lymph node tissue.",
+    "tumor": "an H&E image showing metastatic breast carcinoma in a lymph node."
+   }
+  },
+  {
+   "set_id": 6,
+   "prompts": {
+    "normal": "Microscopic description: normal lymph node tissue.",
+    "tumor": "Microscopic description: metastatic breast carcinoma in a lymph node."
+   }
+  },
+  {
+   "set_id": 7,
+   "prompts": {
+    "normal": "a photo of normal lymph node tissue.",
+    "tumor": "a photo of metastatic breast carcinoma in a lymph node."
+   }
+  },
+  {
+   "set_id": 8,
+   "prompts": {
+    "normal": "a whole slide image patch of normal lymph node tissue.",
+    "tumor": "a whole slide image patch of metastatic breast carcinoma in a lymph node."
+   }
+  },
+  {
+   "set_id": 9,
+   "prompts": {
+    "normal": "histopathology: normal lymph node tissue.",
+    "tumor": "histopathology: metastatic breast carcinoma in a lymph node."
+   }
+  },
+  {
+   "set_id": 10,
+   "prompts": {
+    "normal": "an H&E stained histopathology image of benign lymph node tissue without tumor.",
+    "tumor": "an H&E stained histopathology image of tumor tissue."
+   }
+  },
+  {
+   "set_id": 11,
+   "prompts": {
+    "normal": "a pathology patch showing benign lymph node tissue without tumor.",
+    "tumor": "a pathology patch showing tumor tissue."
+   }
+  },
+  {
+   "set_id": 12,
+   "prompts": {
+    "normal": "Diagnosis: benign lymph node tissue without tumor.",
+    "tumor": "Diagnosis: tumor tissue."
+   }
+  },
+  {
+   "set_id": 13,
+   "prompts": {
+    "normal": "a histology slide of benign lymph node tissue without tumor.",
+    "tumor": "a histology slide of tumor tissue."
+   }
+  },
+  {
+   "set_id": 14,
+   "prompts": {
+    "normal": "a microscopic image of benign lymph node tissue without tumor.",
+    "tumor": "a microscopic image of tumor tissue."
+   }
+  },
+  {
+   "set_id": 15,
+   "prompts": {
+    "normal": "an H&E image showing benign lymph node tissue without tumor.",
+    "tumor": "an H&E image showing tumor tissue."
+   }
+  },
+  {
+   "set_id": 16,
+   "prompts": {
+    "normal": "Microscopic description: benign lymph node tissue without tumor.",
+    "tumor": "Microscopic description: tumor tissue."
+   }
+  },
+  {
+   "set_id": 17,
+   "prompts": {
+    "normal": "a photo of benign lymph node tissue without tumor.",
+    "tumor": "a photo of tumor tissue."
+   }
+  },
+  {
+   "set_id": 18,
+   "prompts": {
+    "normal": "a whole slide image patch of benign lymph node tissue without tumor.",
+    "tumor": "a whole slide image patch of tumor tissue."
+   }
+  },
+  {
+   "set_id": 19,
+   "prompts": {
+    "normal": "histopathology: benign lymph node tissue without tumor.",
+    "tumor": "histopathology: tumor tissue."
+   }
+  },
+  {
+   "set_id": 20,
+   "prompts": {
+    "normal": "an H&E stained histopathology image of lymphocytes with no metastatic tumor.",
+    "tumor": "an H&E stained histopathology image of lymph node with metastatic tumor cells."
+   }
+  },
+  {
+   "set_id": 21,
+   "prompts": {
+    "normal": "a pathology patch showing lymphocytes with no metastatic tumor.",
+    "tumor": "a pathology patch showing lymph node with metastatic tumor cells."
+   }
+  },
+  {
+   "set_id": 22,
+   "prompts": {
+    "normal": "Diagnosis: lymphocytes with no metastatic tumor.",
+    "tumor": "Diagnosis: lymph node with metastatic tumor cells."
+   }
+  },
+  {
+   "set_id": 23,
+   "prompts": {
+    "normal": "a histology slide of lymphocytes with no metastatic tumor.",
+    "tumor": "a histology slide of lymph node with metastatic tumor cells."
+   }
+  },
+  {
+   "set_id": 24,
+   "prompts": {
+    "normal": "a microscopic image of lymphocytes with no metastatic tumor.",
+    "tumor": "a microscopic image of lymph node with metastatic tumor cells."
+   }
+  },
+  {
+   "set_id": 25,
+   "prompts": {
+    "normal": "an H&E image showing lymphocytes with no metastatic tumor.",
+    "tumor": "an H&E image showing lymph node with metastatic tumor cells."
+   }
+  },
+  {
+   "set_id": 26,
+   "prompts": {
+    "normal": "Microscopic description: lymphocytes with no metastatic tumor.",
+    "tumor": "Microscopic description: lymph node with metastatic tumor cells."
+   }
+  },
+  {
+   "set_id": 27,
+   "prompts": {
+    "normal": "a photo of lymphocytes with no metastatic tumor.",
+    "tumor": "a photo of lymph node with metastatic tumor cells."
+   }
+  },
+  {
+   "set_id": 28,
+   "prompts": {
+    "normal": "a whole slide image patch of lymphocytes with no metastatic tumor.",
+    "tumor": "a whole slide image patch of lymph node with metastatic tumor cells."
+   }
+  },
+  {
+   "set_id": 29,
+   "prompts": {
+    "normal": "histopathology: lymphocytes with no metastatic tumor.",
+    "tumor": "histopathology: lymph node with metastatic tumor cells."
+   }
+  },
+  {
+   "set_id": 30,
+   "prompts": {
+    "normal": "an H&E stained histopathology image of normal lymphoid tissue.",
+    "tumor": "an H&E stained histopathology image of invasive carcinoma cells."
+   }
+  },
+  {
+   "set_id": 31,
+   "prompts": {
+    "normal": "a pathology patch showing normal lymphoid tissue.",
+    "tumor": "a pathology patch showing invasive carcinoma cells."
+   }
+  },
+  {
+   "set_id": 32,
+   "prompts": {
+    "normal": "Diagnosis: normal lymphoid tissue.",
+    "tumor": "Diagnosis: invasive carcinoma cells."
+   }
+  },
+  {
+   "set_id": 33,
+   "prompts": {
+    "normal": "a histology slide of normal lymphoid tissue.",
+    "tumor": "a histology slide of invasive carcinoma cells."
+   }
+  },
+  {
+   "set_id": 34,
+   "prompts": {
+    "normal": "a microscopic image of normal lymphoid tissue.",
+    "tumor": "a microscopic image of invasive carcinoma cells."
+   }
+  },
+  {
+   "set_id": 35,
+   "prompts": {
+    "normal": "an H&E image showing normal lymphoid tissue.",
+    "tumor": "an H&E image showing invasive carcinoma cells."
+   }
+  },
+  {
+   "set_id": 36,
+   "prompts": {
+    "normal": "Microscopic description: normal lymphoid tissue.",
+    "tumor": "Microscopic description: invasive carcinoma cells."
+   }
+  },
+  {
+   "set_id": 37,
+   "prompts": {
+    "normal": "a photo of normal lymphoid tissue.",
+    "tumor": "a photo of invasive carcinoma cells."
+   }
+  },
+  {
+   "set_id": 38,
+   "prompts": {
+    "normal": "a whole slide image patch of normal lymphoid tissue.",
+    "tumor": "a whole slide image patch of invasive carcinoma cells."
+   }
+  },
+  {
+   "set_id": 39,
+   "prompts": {
+    "normal": "histopathology: normal lymphoid tissue.",
+    "tumor": "histopathology: invasive carcinoma cells."
+   }
+  },
+  {
+   "set_id": 40,
+   "prompts": {
+    "normal": "an H&E stained histopathology image of tumor-free lymph node.",
+    "tumor": "an H&E stained histopathology image of malignant epithelial tumor."
+   }
+  },
+  {
+   "set_id": 41,
+   "prompts": {
+    "normal": "a pathology patch showing tumor-free lymph node.",
+    "tumor": "a pathology patch showing malignant epithelial tumor."
+   }
+  },
+  {
+   "set_id": 42,
+   "prompts": {
+    "normal": "Diagnosis: tumor-free lymph node.",
+    "tumor": "Diagnosis: malignant epithelial tumor."
+   }
+  },
+  {
+   "set_id": 43,
+   "prompts": {
+    "normal": "a histology slide of tumor-free lymph node.",
+    "tumor": "a histology slide of malignant epithelial tumor."
+   }
+  },
+  {
+   "set_id": 44,
+   "prompts": {
+    "normal": "a microscopic image of tumor-free lymph node.",
+    "tumor": "a microscopic image of malignant epithelial tumor."
+   }
+  },
+  {
+   "set_id": 45,
+   "prompts": {
+    "normal": "an H&E image showing tumor-free lymph node.",
+    "tumor": "an H&E image showing malignant epithelial tumor."
+   }
+  },
+  {
+   "set_id": 46,
+   "prompts": {
+    "normal": "Microscopic description: tumor-free lymph node.",
+    "tumor": "Microscopic description: malignant epithelial tumor."
+   }
+  },
+  {
+   "set_id": 47,
+   "prompts": {
+    "normal": "a photo of tumor-free lymph node.",
+    "tumor": "a photo of malignant epithelial tumor."
+   }
+  },
+  {
+   "set_id": 48,
+   "prompts": {
+    "normal": "a whole slide image patch of tumor-free lymph node.",
+    "tumor": "a whole slide image patch of malignant epithelial tumor."
+   }
+  },
+  {
+   "set_id": 49,
+   "prompts": {
+    "normal": "histopathology: tumor-free lymph node.",
+    "tumor": "histopathology: malignant epithelial tumor."
+   }
+  }
+ ]
+}
