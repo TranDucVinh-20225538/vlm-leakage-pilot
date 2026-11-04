@@ -1,0 +1,74 @@
+{
+  "branches": [
+    {
+      "dataset": "NIH",
+      "model": "BiomedCLIP",
+      "prompt_set_id": 0,
+      "seed": 0,
+      "n_images": 91214,
+      "n_sel_a_cache_pool": 1410,
+      "mcm": {
+        "tie_rate_log_score": 0.00019733812791900007,
+        "n_unique_log_score": 91196
+      },
+      "adapter": {
+        "alpha": 1.0,
+        "beta": 5.5,
+        "clip_scale": 100.0,
+        "N_cache_per_class": 16,
+        "tie_rate_log_score": 0.00019733812791900007,
+        "n_unique_log_score": 91196,
+        "frac_score_eq_1": 0.0
+      }
+    },
+    {
+      "dataset": "Camelyon17",
+      "model": "BiomedCLIP",
+      "prompt_set_id": 0,
+      "seed": 0,
+      "n_images": 455954,
+      "n_sel_a_cache_pool": 79600,
+      "n_sel_a_strict_m_half": 24,
+      "cache_pool_note": "step0 diagnostic uses all ID-hospital P_sel patches (strict m/2 too small for N=16)",
+      "interp": "96x96 upscaled via model preprocess (BICUBIC)",
+      "mcm": {
+        "tie_rate_log_score": 0.0,
+        "n_unique_log_score": 455954
+      },
+      "adapter": {
+        "alpha": 1.0,
+        "beta": 5.5,
+        "clip_scale": 100.0,
+        "N_cache_per_class": 16,
+        "tie_rate_log_score": 0.0,
+        "n_unique_log_score": 455954,
+        "frac_score_eq_1": 0.0
+      }
+    },
+    {
+      "dataset": "Camelyon17",
+      "model": "CONCH",
+      "prompt_set_id": 0,
+      "seed": 0,
+      "n_images": 455954,
+      "n_sel_a_cache_pool": 79600,
+      "n_sel_a_strict_m_half": 24,
+      "cache_pool_note": "step0 diagnostic uses all ID-hospital P_sel patches (strict m/2 too small for N=16)",
+      "interp": "96x96 upscaled via model preprocess (BICUBIC)",
+      "mcm": {
+        "tie_rate_log_score": 0.0,
+        "n_unique_log_score": 455954
+      },
+      "adapter": {
+        "alpha": 1.0,
+        "beta": 5.5,
+        "clip_scale": 100.0,
+        "N_cache_per_class": 16,
+        "tie_rate_log_score": 0.3460656118819003,
+        "n_unique_log_score": 298164,
+        "frac_score_eq_1": 0.1443500879474684
+      }
+    }
+  ],
+  "errors": []
+}

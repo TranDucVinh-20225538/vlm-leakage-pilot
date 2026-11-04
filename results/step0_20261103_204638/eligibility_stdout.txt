@@ -1,0 +1,138 @@
+{
+  "nih": {
+    "patient_id_column": "Patient ID",
+    "n_csv_rows": 112120,
+    "n_patients_all": 30805,
+    "n_single_label": 91324,
+    "n_multi_label": 20796,
+    "single_label_counts": {
+      "No Finding": 60361,
+      "Infiltration": 9547,
+      "Atelectasis": 4215,
+      "Effusion": 3955,
+      "Nodule": 2705,
+      "Pneumothorax": 2194,
+      "Mass": 2139,
+      "Consolidation": 1310,
+      "Pleural_Thickening": 1126,
+      "Cardiomegaly": 1093,
+      "Emphysema": 892,
+      "Fibrosis": 727,
+      "Edema": 628,
+      "Pneumonia": 322,
+      "Hernia": 110
+    },
+    "id_classes": [
+      "No Finding",
+      "Infiltration",
+      "Effusion",
+      "Atelectasis"
+    ],
+    "ood_classes": [
+      "Pneumothorax",
+      "Mass",
+      "Nodule",
+      "Cardiomegaly",
+      "Emphysema",
+      "Fibrosis",
+      "Pleural_Thickening",
+      "Consolidation",
+      "Edema",
+      "Pneumonia"
+    ],
+    "drop_classes": [
+      "Hernia"
+    ],
+    "n_eligible_ge8_id_films": 2147,
+    "mean_id_films_eligible": 14.744294364229157,
+    "m_levels": {
+      "2": {
+        "n_eligible_patients": 2147,
+        "mean_id_films_per_patient": 14.744294364229157,
+        "note": "eligibility fixed at >=8 ID films; population unchanged across m"
+      },
+      "4": {
+        "n_eligible_patients": 2147,
+        "mean_id_films_per_patient": 14.744294364229157,
+        "note": "eligibility fixed at >=8 ID films; population unchanged across m"
+      },
+      "8": {
+        "n_eligible_patients": 2147,
+        "mean_id_films_per_patient": 14.744294364229157,
+        "note": "eligibility fixed at >=8 ID films; population unchanged across m"
+      }
+    },
+    "split_rule": "roles on ALL patients 1/3; ID uses eligible (>=8 ID films)",
+    "eligible_per_role_min_over_seeds_0_to_N-1": {
+      "P_sel": 651,
+      "P_cal": 658,
+      "P_test": 663
+    },
+    "preview_seeds": 200,
+    "example_seed0_roles": {
+      "P_sel": {
+        "n_patients_all": 10268,
+        "n_eligible_id": 705,
+        "mean_id_films_eligible": 15.01418439716312
+      },
+      "P_cal": {
+        "n_patients_all": 10268,
+        "n_eligible_id": 709,
+        "mean_id_films_eligible": 14.753173483779971
+      },
+      "P_test": {
+        "n_patients_all": 10269,
+        "n_eligible_id": 733,
+        "mean_id_films_eligible": 14.47612551159618
+      }
+    },
+    "stop_threshold": 200,
+    "STOP": false
+  },
+  "camelyon": {
+    "n_metadata_rows": 455954,
+    "n_patients_all": 43,
+    "n_pure_id_centers_0_2": 24,
+    "n_pure_ood_centers_3_4": 19,
+    "split_rule_all_patients_1_3": true,
+    "role_patient_mins_all_split": {
+      "P_sel": 14,
+      "P_cal": 14,
+      "P_test": 15
+    },
+    "role_id_hospital_mins_under_all_split": {
+      "P_sel": 4,
+      "P_cal": 3,
+      "P_test": 5
+    },
+    "role_mins_if_split_id_hospitals_only": {
+      "P_sel": 8,
+      "P_cal": 8,
+      "P_test": 8
+    },
+    "example_seed0_all_patient_roles": {
+      "P_sel": {
+        "n_patients_all": 14,
+        "n_id_hospital_0_2": 12,
+        "n_ood_hospital_3_4": 2
+      },
+      "P_cal": {
+        "n_patients_all": 14,
+        "n_id_hospital_0_2": 4,
+        "n_ood_hospital_3_4": 10
+      },
+      "P_test": {
+        "n_patients_all": 15,
+        "n_id_hospital_0_2": 8,
+        "n_ood_hospital_3_4": 7
+      }
+    },
+    "stop_threshold": 8,
+    "STOP_if_all_patient_role_lt_8": false,
+    "STOP_if_id_hospital_pool_role_lt_8": false,
+    "STOP": false,
+    "note": "STOP true if either all-patient roles or ID-hospital-only roles fall below 8 in any seed preview."
+  },
+  "go_embeddings": true
+}
+ELIGIBILITY_PASS
